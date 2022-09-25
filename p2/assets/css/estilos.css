@@ -1,0 +1,59 @@
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards {
+    display:flex;
+    justify-content: center;
+}
+
+#card {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagen1 {
+    background-image: url("../img/github.PNG");
+}
+
+#imagen2 {
+    background-image: url("../img/slack.PNG");
+}
+
+#imagen3 {
+    background-image: url("../img/git.PNG");
+}
+
+.bg {
+    background-size: contain;
+    background-color: #eeeeee;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 210px;  
+  }
+
+.borde{
+    border: 2px solid red;
+}
+
+#boton {
+    padding: 20px 50px;
+    background-color: #808080;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #boton:hover {
+    background-color: #291980;
+    text-decoration: none;
+   }
+  
+  #boton:focus {
+    background-color: #c62727;;
+    text-decoration: none;
+  }
