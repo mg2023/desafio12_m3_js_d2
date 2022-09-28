@@ -4,6 +4,11 @@ main {
     align-items: center;
 }
 
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
 #cards {
     display:flex;
     justify-content: center;
@@ -34,26 +39,35 @@ main {
     background-repeat: no-repeat;
     height: 120px;
     width: 210px;  
+ /*    padding-top: 20px; */
   }
 
 .borde{
-    border: 2px solid red;
+    border: 2px solid bisque;
 }
 
-#boton {
-    padding: 20px 50px;
+#boton1 {
+    padding: 10px 20px;
     background-color: #808080;
     font-size: 16px;
     color: white;
     text-decoration: none;
   }
   
-  #boton:hover {
+  #boton1:hover {
     background-color: #291980;
     text-decoration: none;
    }
   
-  #boton:focus {
+  #boton1:focus {
     background-color: #c62727;;
     text-decoration: none;
+  }
+
+  #boton_verificar {
+    padding-top: 10px;
+  }
+
+  h2{
+    padding-top: 10px;
   }
