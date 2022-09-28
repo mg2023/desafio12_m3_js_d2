@@ -16,7 +16,7 @@ boton.addEventListener("click", function () {
   let totalStickers = suma(cantidadSticker1.value,cantidadSticker2.value,cantidadSticker3.value)
 
   console.log(totalStickers)
-  console.log(respuesta.value)
+
 
   if(totalStickers <= 10)
   {
